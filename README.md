@@ -1,64 +1,32 @@
+# 📦 Stock Management System
+
+A **web-based stock management system** built using **HTML, Tailwind CSS, and JavaScript**.  
+It allows you to manage products, inventories, stock-taking, credits, transfers, audits, reports, and portfolio analysis — **all in the browser using LocalStorage**, no backend required.
 
 ---
 
-## 💻 How To Use
+## 🚀 Features
 
-1. Download or clone this repository.
-2. Open `index.html` in any modern web browser.
-3. Start managing your stock immediately.
-
----
-
-## ⚙ System Modules
-
-### 📦 Products
-- Add products
-- Assign products to inventories
-- Manage units (kg, liters, pcs)
-
-### 🏪 Inventory Management
-- Create Main Inventories
-- Create Sub Inventories linked to Main
-- Delete inventories
-
-### 📊 Stock Taking
-- Daily stock entry
-- Automatic calculations:
-  - Opening stock
-  - Added stock
-  - Used stock
-  - Spoiled stock
-  - Physical stock
-  - Variance calculation
-- Session progress tracking
-
-### 💳 Credit Management
-- Tracks negative variances
-- Allows debt acceptance & resolution
-
-### ↔️ Transfers
-- Transfer stock between inventories
-- Automatic stock recalculation
-
-### 🔍 Audit Trail
-- Full activity logging:
-  - Product creation
-  - Inventory creation
-  - Transfers
-  - Stock reports
-
-### 📑 Reports
-- View saved stock reports
-- Export reports to PDF
-- Signature section included
-
-### 📊 Portfolio
-- Generate historical stock movement reports
-- Date-based analysis
-- Product-based filtering
+- **Product Management**: Add, delete, and track products.
+- **Inventory Management**: Create main and sub-inventories; link sub-inventories to main.
+- **Stock Taking**: Record opening stock, added stock, used stock, spoiled stock, and calculate variances.
+- **Credit Management**: Track negative variations and accept/resolved debts.
+- **Inventory Transfer**: Transfer stock between inventories with automatic adjustment.
+- **Audit Trail**: Logs all activities such as product creation, inventory creation, stock taking, and transfers.
+- **Current Stock Viewer**: See up-to-date stock per inventory.
+- **Reports**: View stock history and export as PDF.
+- **Portfolio Analysis**: Generate date-based and product-based reports.
+- **Offline Storage**: Fully functional offline using browser LocalStorage.
 
 ---
 
-## 💾 Data Storage
+## 🛠 Technologies Used
 
-All system data is stored in:
+- **HTML5**  
+- **Tailwind CSS**  
+- **JavaScript (ES6)**  
+- **jsPDF** + **jsPDF AutoTable** (for PDF export)
+
+---
+
+## 📁 Project Structure
